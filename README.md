@@ -20,6 +20,9 @@ $ git clone https://github.com/gmorae/api-sequelize.git
 # Vá até sua pasta
 $ cd api-sequelize
 
+# Rodar as migrations
+$ npx sequelize-cli db:migrate
+
 # Install Dependencies
 $ yarn ou npm i
 
